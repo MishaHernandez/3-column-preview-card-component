@@ -13,6 +13,9 @@ module.exports = {
       fontFamily: {
         bigShoulders: ['Big Shoulders'],
         lexendDeca: ['Lexend Deca'],
+      },
+      width: {
+        mobile: '86%',
       }
     },
   },

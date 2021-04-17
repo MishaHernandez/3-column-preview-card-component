@@ -27992,6 +27992,10 @@ body {
   width: max-content;
 }
 
+.w-mobile {
+  width: 86%;
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -60123,6 +60127,10 @@ body {
     width: max-content;
   }
 
+  .sm\:w-mobile {
+    width: 86%;
+  }
+
   .sm\:z-0 {
     z-index: 0;
   }
@@ -92095,6 +92103,10 @@ body {
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
+  }
+
+  .md\:w-mobile {
+    width: 86%;
   }
 
   .md\:z-0 {
@@ -124071,6 +124083,10 @@ body {
     width: max-content;
   }
 
+  .lg\:w-mobile {
+    width: 86%;
+  }
+
   .lg\:z-0 {
     z-index: 0;
   }
@@ -156045,6 +156061,10 @@ body {
     width: max-content;
   }
 
+  .xl\:w-mobile {
+    width: 86%;
+  }
+
   .xl\:z-0 {
     z-index: 0;
   }
@@ -188017,6 +188037,10 @@ body {
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
+  }
+
+  .\32xl\:w-mobile {
+    width: 86%;
   }
 
   .\32xl\:z-0 {
