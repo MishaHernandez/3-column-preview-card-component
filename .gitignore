@@ -16,3 +16,4 @@
 .prettierignore
 
 # user
+node_modules/
