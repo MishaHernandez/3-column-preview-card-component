@@ -2,8 +2,13 @@
     box-sizing: border-box;
 }
 
+:root {
+    --animate-delay: 0.5s;
+}
+
 @tailwind base;
 @tailwind components;
+
 /* Custom code here */
 
 @font-face {
@@ -22,6 +27,22 @@
 
 body {
     font-size: 15px;
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translate(-100%, 0);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+.animated.delay-2s {
+    animation-delay: calc(var(--animate-delay) * 2);
 }
 
 @tailwind utilities;

@@ -19,7 +19,8 @@ module.exports = {
         mobile: '86%',
       },
       maxWidth: {
-        desk: '918px',
+        mobile: '550px',
+        desk: '57.375rem',
       },
       fontSize: {
         desk: '2.5rem',

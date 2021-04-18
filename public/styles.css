@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --animate-delay: 0.5s;
+}
+
 /*! tailwindcss v2.1.1 | MIT License | https://tailwindcss.com */
 
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
@@ -613,6 +617,35 @@ video {
 
 body {
   font-size: 15px;
+}
+
+@-webkit-keyframes slideInLeft {
+  from {
+    transform: translate(-100%, 0);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translate(-100%, 0);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+.animated.delay-2s {
+  -webkit-animation-delay: calc(var(--animate-delay) * 2);
+          animation-delay: calc(var(--animate-delay) * 2);
 }
 
 .space-y-0 > :not([hidden]) ~ :not([hidden]) {
@@ -14591,8 +14624,12 @@ body {
   max-width: 1536px;
 }
 
+.max-w-mobile {
+  max-width: 550px;
+}
+
 .max-w-desk {
-  max-width: 918px;
+  max-width: 57.375rem;
 }
 
 .min-h-0 {
@@ -46923,8 +46960,12 @@ body {
     max-width: 1536px;
   }
 
+  .sm\:max-w-mobile {
+    max-width: 550px;
+  }
+
   .sm\:max-w-desk {
-    max-width: 918px;
+    max-width: 57.375rem;
   }
 
   .sm\:min-h-0 {
@@ -79085,8 +79126,12 @@ body {
     max-width: 1536px;
   }
 
+  .md\:max-w-mobile {
+    max-width: 550px;
+  }
+
   .md\:max-w-desk {
-    max-width: 918px;
+    max-width: 57.375rem;
   }
 
   .md\:min-h-0 {
@@ -111247,8 +111292,12 @@ body {
     max-width: 1536px;
   }
 
+  .lg\:max-w-mobile {
+    max-width: 550px;
+  }
+
   .lg\:max-w-desk {
-    max-width: 918px;
+    max-width: 57.375rem;
   }
 
   .lg\:min-h-0 {
@@ -143409,8 +143458,12 @@ body {
     max-width: 1536px;
   }
 
+  .xl\:max-w-mobile {
+    max-width: 550px;
+  }
+
   .xl\:max-w-desk {
-    max-width: 918px;
+    max-width: 57.375rem;
   }
 
   .xl\:min-h-0 {
@@ -175571,8 +175624,12 @@ body {
     max-width: 1536px;
   }
 
+  .\32xl\:max-w-mobile {
+    max-width: 550px;
+  }
+
   .\32xl\:max-w-desk {
-    max-width: 918px;
+    max-width: 57.375rem;
   }
 
   .\32xl\:min-h-0 {

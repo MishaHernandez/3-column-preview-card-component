@@ -8,50 +8,54 @@
   
   <title>Frontend Mentor | 3-column preview card component</title>
 
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <link rel="stylesheet" href="styles.css">
-
 </head>
+
 <body class="lg:flex lg:flex-col lg:h-screen lg:justify-center">
   
-  <div class="container mx-auto my-20 w-mobile lg:flex max-w-desk lg:my-0">
+  <div class="container mx-auto my-20 w-mobile lg:flex max-w-mobile lg:max-w-desk lg:my-0">
+    
     <div class="p-12 overflow-hidden rounded-t-lg bg-brightOrange lg:rounded-l-lg lg:rounded-t-none">
-      <article>
-        <img class="mb-10" src="./images/icon-sedans.svg" alt="Sedans car icon">
+      <img class="mb-10 animate__animated animate__slideInLeft" src="./images/icon-sedans.svg" alt="Sedans car icon">
+      <article class="animate__animated animate__slideInLeft">
         <h2 class="text-4xl uppercase mb-9 font-bigShoulders text-veryLightGray lg:text-desk">Sedans</h2>
         <p class="font-lexendDeca text-paragraph mb-7 lg:leading-6 lg:mb-20">
           Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
           or on your next road trip.
         </p>
       </article>
-      <button class="py-3 border-2 border-transparent px-7 rounded-3xl text-brightOrange bg-veryLightGray font-lexendDeca lg:hover:bg-brightOrange lg:hover:text-veryLightGray lg:hover:border-white" title="learn more">Learn More</button>
+      <button
+        class="py-3 border-2 border-transparent animate__animated px-7 rounded-3xl text-brightOrange bg-veryLightGray font-lexendDeca lg:hover:bg-brightOrange lg:hover:text-veryLightGray lg:hover:border-white animate__zoomIn animate__delay-1s"
+        title="learn more">Learn More</button>
     </div>
   
     <div class="p-12 overflow-hidden bg-darkCyan">
-      <img class="mb-10 animate__delay-1s" src="./images/icon-suvs.svg" alt="SUVs car icon">
-      <article>
-        <h2 class="text-4xl uppercase font-bigShoulders text-veryLightGray mb-9">SUVs </h2>
+      <img class="mb-10 animate__animated animate__slideInLeft animate__delay-1s" src="./images/icon-suvs.svg" alt="SUVs car icon">
+      <article class="animate__animated animate__slideInLeft animate__delay-1s">
+        <h2 class="text-4xl uppercase font-bigShoulders text-veryLightGray mb-9 lg:text-desk">SUVs </h2>
         <p class="font-lexendDeca text-paragraph mb-7 lg:leading-6 lg:mb-20">
           Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
           and off-road adventures.
         </p>
       </article>
       <button
-        class="py-3 border-2 border-transparent rounded-full px-7 text-darkCyan bg-veryLightGray font-lexendDeca lg:hover:bg-darkCyan lg:hover:text-veryLightGray lg:hover:border-white" title="learn more">Learn
+        class="py-3 border-2 border-transparent rounded-full animate__animated animate__zoomIn animate__delay-2s px-7 text-darkCyan bg-veryLightGray font-lexendDeca lg:hover:bg-darkCyan lg:hover:text-veryLightGray lg:hover:border-white"
+        title="learn more">Learn
         More</button>
     </div>
   
     <div class="p-12 overflow-hidden rounded-b-lg bg-veryDarkCyan lg:rounded-b-none lg:rounded-r-lg">
-      <img class="mb-10 animate__delay-2s" src="./images/icon-luxury.svg" alt="Luxury car icon">
-      <article>
-        <h2 class="text-4xl uppercase font-bigShoulders text-veryLightGray mb-9">Luxury</h2>
+      <img class="mb-10 animate__animated animate__slideInLeft animate__delay-2s" src="./images/icon-luxury.svg" alt="Luxury car icon">
+      <article class="animate__animated animate__slideInLeft animate__delay-2s">
+        <h2 class="text-4xl uppercase font-bigShoulders text-veryLightGray mb-9 lg:text-desk">Luxury</h2>
         <p class="font-lexendDeca text-paragraph mb-7 lg:leading-6 lg:mb-20">
           Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
           rental and arrive in style.
         </p>
       </article>
       <button
-        class="py-3 border-2 border-transparent px-7 rounded-3xl text-veryDarkCyan bg-veryLightGray font-lexendDeca lg:hover:bg-veryDarkCyan lg:hover:text-veryLightGray lg:hover:border-white" title="learn more">Learn
+        class="py-3 border-2 border-transparent animate__animated animate__zoomIn animate__delay-3s px-7 rounded-3xl text-veryDarkCyan bg-veryLightGray font-lexendDeca lg:hover:bg-veryDarkCyan lg:hover:text-veryLightGray lg:hover:border-white" title="learn more">Learn
         More</button>
     </div>
   </div>
