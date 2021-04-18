@@ -16,6 +16,12 @@ module.exports = {
       },
       width: {
         mobile: '86%',
+      },
+      maxWidth: {
+        desk: '918px',
+      },
+      fontSize: {
+        desk: '2.5rem',
       }
     },
   },
