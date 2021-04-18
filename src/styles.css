@@ -1,7 +1,3 @@
-*,*::before,*::after {
-    box-sizing: border-box;
-}
-
 :root {
     --animate-delay: 0.5s;
 }
@@ -13,14 +9,14 @@
 
 @font-face {
     font-family: 'Big Shoulders';
-    src: url('../public/fonts/BigShouldersDisplay-Bold.ttf') format('truetype');
+    src: url('./fonts/BigShouldersDisplay-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Lexend Deca';
-    src: url('../public/fonts/LexendDeca-Regular.ttf') format('truetype');
+    src: url('./fonts/LexendDeca-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
