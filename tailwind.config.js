@@ -9,6 +9,7 @@ module.exports = {
         veryDarkCyan: 'hsl(179, 100%, 13%)',
         paragraph: 'hsla(0, 0%, 100%, 0.75)',
         veryLightGray: 'hsl(0, 0%, 95%)',
+        link: 'hsl(228, 45% , 44% )',
       },
       fontFamily: {
         bigShoulders: ['Big Shoulders'],

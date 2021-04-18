@@ -1,6 +1,11 @@
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
 @tailwind base;
 @tailwind components;
 /* Custom code here */
+
 @font-face {
     font-family: 'Big Shoulders';
     src: url('../public/fonts/BigShouldersDisplay-Bold.ttf') format('truetype');
